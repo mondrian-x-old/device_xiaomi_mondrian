@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
     SystemUIResMondrian \
     WifiResMondrian
 
+# Shim for miui camera 
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.xiaomi
